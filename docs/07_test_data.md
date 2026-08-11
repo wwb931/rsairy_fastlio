@@ -5,7 +5,7 @@
 本地测试 bag 放置位置：
 
 ```text
-src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/bag/move_slow
+src/FAST_LIO_RS/bag/move_slow
 ```
 
 包含：
@@ -20,7 +20,7 @@ rosbag2_2026_06_23-17_52_32_0.db3
 播放示例：
 
 ```bash
-ros2 bag play src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/bag/move_slow
+ros2 bag play src/FAST_LIO_RS/bag/move_slow
 ```
 
 ## 图片
@@ -28,7 +28,7 @@ ros2 bag play src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/bag/move_slow
 图片目录：
 
 ```text
-src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/photo
+src/FAST_LIO_RS/photo
 ```
 
 包含：

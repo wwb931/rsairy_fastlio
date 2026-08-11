@@ -3,7 +3,7 @@
 参考图片：
 
 ```text
-src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/photo/imu and lidar frame in the airy.png
+src/FAST_LIO_RS/photo/imu and lidar frame in the airy.png
 ```
 
 根据图中 RSAIRY 雷达坐标系和内置 IMU 坐标系，可整理出原始关系：

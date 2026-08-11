@@ -7,7 +7,7 @@ RSAIRY 内置 IMU 原始坐标可能导致 FAST-LIO 的 `body` 和 `camera_init`
 新增节点：
 
 ```text
-src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/src/camera_init_visual_tf.cpp
+src/FAST_LIO_RS/src/camera_init_visual_tf.cpp
 ```
 
 发布：
@@ -65,7 +65,7 @@ ros2 run fast_lio camera_init_visual_tf --ros-args \
 修改位置：
 
 ```text
-src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/src/laserMapping.cpp
+src/FAST_LIO_RS/src/laserMapping.cpp
 ```
 
 函数：
@@ -91,7 +91,7 @@ msg->angular_velocity.z = -msg_in->angular_velocity.z;
 同步修改：
 
 ```text
-src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main/config/rsairy.yaml
+src/FAST_LIO_RS/config/rsairy.yaml
 ```
 
 ```yaml

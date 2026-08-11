@@ -6,7 +6,7 @@
 
 - `src/rslidar_sdk`：速腾聚创 ROS2 驱动，已按 RSAIRY 使用场景调整为 `POINT_TYPE XYZIRT`，并开启 IMU 数据解析。
 - `src/rslidar_msg`：速腾驱动消息包。
-- `src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main`：基于 FAST-LIO ROS2/ZVISION 适配版本改造的 RSAIRY 适配算法。
+- `src/FAST_LIO_RS`：基于 FAST-LIO ROS2/ZVISION 适配版本改造的 RSAIRY 适配算法。
 - `src/lidar_align`：从 ROS1 移植到 ROS2 的 `lidar_align`，用于尝试 LiDAR-IMU 外参自动标定。
 
 ## 编译环境与依赖

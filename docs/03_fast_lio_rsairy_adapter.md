@@ -3,7 +3,7 @@
 算法目录：
 
 ```text
-src/FAST_LIO_RS-ROS2/FAST_LIO_RS-main
+src/FAST_LIO_RS
 ```
 
 ## 新增配置
