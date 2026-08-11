@@ -22,8 +22,6 @@ ROS2 Humble
 ```bash
 sudo apt update
 sudo apt install -y \
-  python3-colcon-common-extensions \
-  python3-rosdep \
   libeigen3-dev \
   libpcl-dev \
   libpcap-dev \
@@ -34,28 +32,11 @@ sudo apt install -y \
   ros-humble-rosbag2-cpp
 ```
 
-如果是第一次使用该工作空间，建议初始化并更新 rosdep：
-
-```bash
-sudo rosdep init
-rosdep update
-```
-
-然后在工作空间根目录补齐 ROS 依赖：
-
-```bash
-cd ~/rslidar_ws
-rosdep install --from-paths src --ignore-src -r -y
-```
-
-注意：`sudo rosdep init` 只需要执行一次。如果提示已经初始化，可以跳过。
-
 ## 快速编译
 
 ```bash
 cd ~/rslidar_ws
-source /opt/ros/humble/setup.bash
-colcon build --symlink-install
+colcon build 
 source install/setup.bash
 ```
 
@@ -87,4 +68,4 @@ ros2 launch fast_lio mapping_rsairy.launch.py
 
 ## 测试 bag
 
-测试 bag 的 `.db3` 文件约 442 MB，超过 GitHub 普通文件上传限制，因此没有纳入普通 git 提交。仓库中保留测试数据说明，建议后续通过 GitHub Release 附件或 Git LFS 管理。
+测试 bag 的 `.db3` 文件约 442 MB，通过 GitHub Release 附件管理。
